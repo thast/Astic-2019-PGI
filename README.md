@@ -1,6 +1,6 @@
-**[summary](#summary) | [contents](#contents) | [usage](#usage) | [running the notebooks](#running-the-notebooks) | [issues](#issues) | [citation](#citation) | [license](#license)**
+**[summary](#summary) | [contents](#contents) | [usage](#usage) | [running the notebooks](#running-the-notebooks) | [issues](#issues) | [citations](#citations) | [license](#license)**
 
-# Open source software for petrophysically and geologically guided geophysical inversion
+# Open source software for petrophysically and geologically guided geophysical inversion (PGI) 
 
 [![Build Status](https://travis-ci.org/simpeg-research/Astic-2019-PGI.svg?branch=master)](https://travis-ci.org/simpeg-research/Astic-2019-PGI)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/simpeg-research/Astic-2019-PGI/master?filepath=index.ipynb)
@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/github/license/simpeg-research/Astic-2019-PGI.svg)](https://github.com/simpeg-research/Astic-2019-PGI/blob/master/LICENSE)
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 
-Notebooks and python scripts to reproduce the figures shown in Astic & Oldenburg (2019).
+Notebooks and python scripts to reproduce the figures shown in Astic & Oldenburg (2019). Implemented as part of the [<tt>`SimPEG`</tt> package](https://simpeg.xyz/).
 
 <img src="figures/DCexample_summary.png" width=50% align="middle">
 
@@ -95,7 +95,24 @@ Please [make an issue](https://github.com/simpeg-research/Astic_2019_PGI/issues)
 
 If you build upon or use these examples in your work, please cite:
 
-Astic, T. & Oldenburg, D. W. (2018). Petrophysically guided geophysical inversion using a dynamic Gaussian mixture model prior. In SEG Technical Program Expanded Abstracts 2018 (pp. 2312-2316).
+
+Astic T., Oldenburg D.W. (2019). A framework for petrophysically and geologically guided geophysical inversion using a dynamic Gaussian mixture model prior, Geophysical Journal International, https://doi.org/10.1093/gji/ggz389
+
+```
+@article{10.1093/gji/ggz389,
+    author = {Astic, Thibaut and Oldenburg, Douglas W},
+    title = "{A framework for petrophysically and geologically guided geophysical inversion using a dynamic Gaussian mixture model prior}",
+    journal = {Geophysical Journal International},
+    year = {2019},
+    month = {08},
+    issn = {0956-540X},
+    doi = {10.1093/gji/ggz389},
+    url = {https://doi.org/10.1093/gji/ggz389},
+    eprint = {http://oup.prod.sis.lan/gji/advance-article-pdf/doi/10.1093/gji/ggz389/29350104/ggz389.pdf},
+}
+```
+
+Astic, T. & Oldenburg, D. W. (2018). Petrophysically guided geophysical inversion using a dynamic Gaussian mixture model prior. In SEG Technical Program Expanded Abstracts 2018 (pp. 2312-2316). https://doi.org/10.1190/segam2018-2995155.1
 
 
 ```
@@ -114,7 +131,7 @@ eprint = {https://library.seg.org/doi/pdf/10.1190/segam2018-2995155.1}
 
 These examples were built following the structures developed by Heagy et al.(2018)
 
-Heagy, L. J., Kang, S., Cockett, R., & Oldenburg, D. W. (2018). Open source software for simulations and inversions of airborne electromagnetic data. In 7th International Workshop on Airborne Electromagnetics (pp. 1–5).
+Heagy, L. J., Kang, S., Cockett, R., & Oldenburg, D. W. (2018). Open source software for simulations and inversions of airborne electromagnetic data. In 7th International Workshop on Airborne Electromagnetics (pp. 1–5). https://doi.org/10.1016/j.cageo.2017.06.018
 
 ```
 @inproceedings{Heagy2018,
@@ -127,6 +144,44 @@ year = {2018}
 }
 ```
 
+If you are using [<tt>`SimPEG`</tt>](https://simpeg.xyz/), please cite:
+
+Cockett, Rowan, Seogi Kang, Lindsey J. Heagy, Adam Pidlisecky, and Douglas W. Oldenburg. "SimPEG: An Open Source Framework for Simulation and Gradient Based Parameter Estimation in Geophysical Applications" Computers & Geosciences, September 2015. https://doi.org/10.1016/j.cageo.2015.09.015.
+
+```
+@article{Cockett2015,
+author = {Cockett, Rowan and Kang, Seogi and Heagy, Lindsey J. and Pidlisecky, Adam and Oldenburg, Douglas W.},
+doi = {10.1016/j.cageo.2015.09.015},
+issn = {00983004},
+journal = {Computers and Geosciences},
+keywords = {Electromagnetics,Geophysics,Inversion,Numerical modeling,Object-oriented programming,Sensitivities},
+pages = {142--154},
+publisher = {Elsevier},
+title = {{SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications}},
+url = {http://dx.doi.org/10.1016/j.cageo.2015.09.015},
+volume = {85},
+year = {2015}
+}
+```
+
+If you are using the Electromagnetics Simulations & Inversions capabilities of [<tt>`SimPEG`</tt>](https://simpeg.xyz/), please cite:
+
+Lindsey J. Heagy, Rowan Cockett, Seogi Kang, Gudni K. Rosenkjaer, Douglas W. Oldenburg. "A framework for simulation and inversion in electromagnetics" Computers & Geosciences, September 2017. https://doi.org/10.1016/j.cageo.2017.06.018
+
+```
+@article{heagy2017framework,
+title = {A framework for simulation and inversion in electromagnetics},
+journal = {Computers \& Geosciences},
+volume = {107},
+pages = {1-19},
+year = {2017},
+issn = {0098-3004},
+doi = {https://doi.org/10.1016/j.cageo.2017.06.018},
+url = {http://www.sciencedirect.com/science/article/pii/S0098300416303946},
+author = {Lindsey J. Heagy and Rowan Cockett and Seogi Kang and Gudni K. Rosenkjaer and Douglas W. Oldenburg},
+keywords = {Geophysics, Numerical modelling, Finite volume, Sensitivities, Object oriented}
+}
+```
 
 ## License
 These notebooks are licensed under the [MIT License](/LICENSE) which allows academic and commercial re-use and adaptation of this work.
